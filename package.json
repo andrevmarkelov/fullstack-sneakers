@@ -1,0 +1,25 @@
+{
+  "name": "fullstack-sneakers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrevmarkelov/fullstack-sneakers.git"
+  },
+  "author": "Markelov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrevmarkelov/fullstack-sneakers/issues"
+  },
+  "homepage": "https://github.com/andrevmarkelov/fullstack-sneakers#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.18",
+    "pg": "^8.7.3"
+  }
+}
