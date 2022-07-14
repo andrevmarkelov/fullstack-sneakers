@@ -96,3 +96,49 @@ body {
     right: 10px;
   }
 }
+
+.favorites-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    font-weight: 500;
+  }
+
+  p {
+    color: #777777;
+    margin: 0;
+    line-height: 25px;
+  }
+
+  button {
+    padding: 15px 20px;
+    background: #9DD558;
+    border-radius: 18px;
+    color: #ffffff;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    outline: none;
+    cursor: pointer;
+    margin-top: 50px;
+    transition: 0.3s all;
+
+    &:hover {
+      background: #a9da6c;
+
+      img {
+        transform: rotate(180deg) translateX(3px);
+      }
+    }
+
+    img {
+      position: relative;
+      top: 1px;
+      transform: rotate(180deg);
+      margin-right: 15px;
+      transition: 0.15s all;
+    }
+  }
+}
